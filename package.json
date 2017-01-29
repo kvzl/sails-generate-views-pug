@@ -1,0 +1,33 @@
+{
+  "name": "sails-generate-views-pug",
+  "version": "0.1.0",
+  "description": "sails generate sails-generate-views-pug",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "pug",
+    "sails-generate-views-pug",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "Kevin Liao <ucfan1784@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "views-pug",
+    "behavior": "overrides `sails generate views-pug`",
+    "sailsVersion": "~0.10.0"
+  }
+}
