@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-views-pug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "sails generate sails-generate-views-pug",
   "main": "Generator.js",
   "scripts": {
